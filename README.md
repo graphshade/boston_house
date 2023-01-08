@@ -1,14 +1,9 @@
-# Predicting Exiting Donation Projects
+# Predicting House Prices in Boston
 
 <img src="https://i.imgur.com/pWBEwXX.png" />
 
 <h2>Problem statement</h2>
-The current annual rate of exciting project (projects that end-up fully funded) proposals at Donor's Choose is about 15%. That means, 75 out of every 100 project proposals Donor's Choose get every year are not fully funded and deemed not exciting. The organization's mission is to help teachers fund projects they need, and if 75% of those projects end up not fully funded, is Donor's Choose achieving its mission? The chart above, showing the historical distribution of exciting projects versus nonexciting projects, visually illustrates the problem the organization faces. 
-
-There is a need for management of Donor's Choose to understand what attributes make certain projects exciting and what attributes make donors repeat donors. 
-
-<br></br>
-To help the organization, I attempt to build a model to predict whether a new project proposal is exciting or not exciting. Lastly, I used descriptive analysis and clustering to understand what characteristics make certain donors repeat donors.
+The current model used by the City of Boston to predict the assessed value of properties has a high root mean squared error. In other words, there is high uncertainty associated with the predicted house prices. This hinders the City's ability to forecast revenue from property taxes precisely within a specified margin of error for effective budgeting and planning. Also, the assessed value of some properties is underestimated such that the City of Boston is losing tax revenue. The situation is critical and warrants immediate action.
 
 <h2>Languages and Libraries Used</h2>
 
@@ -20,11 +15,12 @@ To help the organization, I attempt to build a model to predict whether a new pr
 - <b>Ubuntu 22.04.1 LTS</b>
 
 
-<h2>Key Findings:</h2>
+<h2>Key Findings & Recommendation:</h2>
 
-1. Exciting projects have at least 25% of great comments on the projects page
-2. Exciting projects have least one non-teacher referred donor, aand at least one teacher-referred donor
-3. The estimated cost of the project including tip has marginal effect on amount donated
+1. Properties with extreme features like properties with more than 10 rooms or properties with living area over 2000 square footage tend to be underestimated causing the City of Boston to lose tax revenue. Based on this, it is recommended that the City of Boston should favor a differential property tax rate other than a fixed tax rate
+
+2. Lastly, if the City of Boston wants to increase its tax revenues, it may adopt social policies to reduce population density in certain neighborhoods and increase the overall median income of citizens. The city may also give tax incentives to encourage homeowners to own properties with larger living area per square footage
+
 
 
 <h2>Recommendations:</h2>
