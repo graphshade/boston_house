@@ -40,7 +40,8 @@ Based on the findings, the following recommendations were made:
  git clone https://github.com/graphshade/boston_house.git
  ```
  
-2. Install required libraries using virtual environment
+2. Set up a virtual environment and install the required packages.
 
-3. 
+3. Run the boston_house_project.ipynb in the script folder using Jupyter notebook
  
+4. Because the dataset is large, use the tuning_all_params.py file in the param_tuning_job folder to tune the models via a batch job.
