@@ -33,17 +33,14 @@ Based on the findings, the following recommendations were made:
 <h2>Reproducing the Analysis:</h2>
 
 <p align="left">
-
-1. [Install R and RStudio](https://techvidvan.com/tutorials/install-r/)
  
-2. Clone the project: Run this from the command line
+1. Clone the project: Run this from the command line
  
  ```commandline
- git clone https://github.com/graphshade/loan_default.git
+ git clone https://github.com/graphshade/boston_house.git
  ```
  
-3. Install Required Libraries Using Virtual Environment: 
-   
-   You may install the libraries directly on your computer however, using the virtual environment library `renv`. [Follow this guide to install renv](https://www.youtube.com/watch?v=yc7ZB4F_dc0)
-   1. Open the app.R file in RStudio
-   2. In the RStudio console run `renv::init()` to initiate the renv virtual environment and install the required libraries from the [renv.lock](https://github.com/graphshade/loan_default/blob/main/renv.lock) file 
+2. Install required libraries using virtual environment
+
+3. 
+ 
