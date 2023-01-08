@@ -1,7 +1,5 @@
 # Predicting House Prices in Boston
 
-<img src="https://i.imgur.com/pWBEwXX.png" />
-
 <h2>Problem statement</h2>
 The current model used by the City of Boston to predict the assessed value of properties has a high root mean squared error. In other words, there is high uncertainty associated with the predicted house prices. This hinders the City's ability to forecast revenue from property taxes precisely within a specified margin of error for effective budgeting and planning. Also, the assessed value of some properties is underestimated such that the City of Boston is losing tax revenue. The situation is critical and warrants immediate action.
 
@@ -21,14 +19,6 @@ The current model used by the City of Boston to predict the assessed value of pr
 
 2. Lastly, if the City of Boston wants to increase its tax revenues, it may adopt social policies to reduce population density in certain neighborhoods and increase the overall median income of citizens. The city may also give tax incentives to encourage homeowners to own properties with larger living area per square footage
 
-
-
-<h2>Recommendations:</h2>
-
-Based on the findings, the following recommendations were made:
-1. Operate the model at the 50% predictive probability of default threshold. At this level, the selected model can identify 63% of loan default cases. Historically, this could saved $3 million in loan defaults.This saving in loan default is computed without taking into consideration the cost of associated with wrongly classifying a non-default loan as default. Specifically, operating at the 50% threshold results into wrongly classing 9 out of every 100 observations
-
-2. The customer service department may use the predicted probability of default to segment borrowers and device an outreach campaign targeted at the various segments. For instance, for customers with high probability of default, the customer service department may constantly follow up to understand their financial situation and help them restructure their payment plan
 
 <h2>Reproducing the Analysis:</h2>
 
